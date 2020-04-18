@@ -258,8 +258,9 @@ footer nav a {
 
 @media(max-width: 800px) {
     .nav_bar .logo{
+        margin-left: 41%;
         
-        border: solid red;
+        
     }
     
     .nav_bar a {
@@ -270,7 +271,9 @@ footer nav a {
 
     .logo1 {
         display: flex;
-        border: solid red;
+        margin-left: 0%;
+
+        
         
         
     }
@@ -279,7 +282,7 @@ footer nav a {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        border: solid red;
+        
     }
 
     .middle-content h2 {
