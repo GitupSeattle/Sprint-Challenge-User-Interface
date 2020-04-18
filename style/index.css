@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -331,12 +331,15 @@ footer nav a {
 
 @media(max-width: 500px) {
 
-   .top-content .text-container {
+   .top-content {
         display: flex;
         flex-direction: column;
-        border: solid red;
-        width: 100%;
-        flex-wrap: nowrap;
+       
+        }
+
+    .top-content .text-container{
+        display: flex;
+        justify-items: center;
     }
 
     .nav_bar a {
